@@ -13,7 +13,7 @@ export function generateCalculatorMetadata({ title, description, path, keywords 
   const fullTitle = `${title} | ${siteConfig.name}`;
 
   return {
-    title: fullTitle,
+    title: title,
     description,
     keywords: keywords.join(', '),
     authors: [{ name: siteConfig.name }],
