@@ -60,6 +60,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Google AdSense Verification */}
+        <meta name="google-adsense-account" content="ca-pub-7766226733923401" />
         {/* Google AdSense */}
         {siteConfig.adsensePublisherId && (
           <script
